@@ -591,3 +591,6 @@ img {
   color: #0078ff;
   background-color: #1d1925;
 }
+body{
+  overflow-x: hidden;
+}
