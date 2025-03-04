@@ -1,0 +1,593 @@
+*::before,
+*::before,
+* {
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+/* header */
+.my-nav {
+  transition: all 0.5;
+}
+.my-nav:hover {
+  background-color: rgb(32, 31, 31) !important;
+}
+.my-nav .navbar-collapse {
+  justify-content: end;
+}
+.after-home {
+  position: relative;
+}
+.after-home::after {
+  content: "";
+  background-color: white;
+  width: 50px;
+  height: 3px;
+  top: 110%;
+  left: 10%;
+  position: absolute;
+}
+.about {
+  position: relative;
+  transition: all 1s;
+  padding: 10px;
+}
+.about::after {
+  content: "";
+  background-color: white;
+  width: 0;
+  height: 2px;
+  top: 90%;
+  left: 10%;
+  position: absolute;
+  transition: all 1s;
+}
+.about:hover::after {
+  transition: all 1s;
+
+  content: "";
+  background-color: white;
+  width: 55px;
+  height: 2px;
+  top: 90%;
+  left: 10%;
+  position: absolute;
+}
+.my-bg {
+  background-image: linear-gradient(to right, rgba(8, 8, 8, 0), rgb(0, 0, 0)),
+    url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.font {
+  font-family: "assistant";
+  font-size: 70px;
+}
+.font-2 {
+  font-family: "assistant";
+  font-size: 40px;
+}
+
+h6::before {
+  content: "";
+  animation: Designer 10s infinite;
+}
+
+@keyframes Designer {
+  0% {
+    content: "D";
+  }
+  1.31578947368421% {
+    content: "D";
+  }
+  2.63157894736842% {
+    content: "De";
+  }
+  3.94736842105263% {
+    content: "Des";
+  }
+  5.26315789473684% {
+    content: "Desi";
+  }
+  6.57894736842105% {
+    content: "Desig";
+  }
+  7.89473684210526% {
+    content: "Design";
+  }
+  9.21052631578947% {
+    content: "Designe";
+  }
+  10.5263157894737% {
+    content: "Designer";
+  }
+  11.8421052631579% {
+    content: "Designer";
+  }
+  13.1578947368421% {
+    content: "Designe";
+  }
+  14.4736842105263% {
+    content: "Design";
+  }
+  15.7894736842105% {
+    content: "Desig";
+  }
+  17.1052631578947% {
+    content: "Desi";
+  }
+  18.421052631579% {
+    content: "Des";
+  }
+  19.7368421052632% {
+    content: "De";
+  }
+  21.0526315789474% {
+    content: "D";
+  }
+  22.3684210526316% {
+    content: " De";
+  }
+  23.6842105263158% {
+    content: " Dev";
+  }
+  25% {
+    content: " Deve";
+  }
+  26.3157894736842% {
+    content: " Devel";
+  }
+  27.6315789473684% {
+    content: " Develo";
+  }
+  28.9473684210527% {
+    content: " Develop";
+  }
+  30.2631578947369% {
+    content: " Develop";
+  }
+  31.5789473684211% {
+    content: " Developer";
+  }
+  32.8947368421053% {
+    content: " Developer";
+  }
+  34.2105263157895% {
+    content: " Develop";
+  }
+  35.5263157894737% {
+    content: " Develo";
+  }
+  36.8421052631579% {
+    content: " Devel";
+  }
+  38.1578947368421% {
+    content: " Deve";
+  }
+  39.4736842105264% {
+    content: " Dev";
+  }
+  40.7894736842106% {
+    content: " De";
+  }
+  42.1052631578948% {
+    content: " D";
+  }
+  43.421052631579% {
+    content: "F";
+  }
+  44.7368421052632% {
+    content: "Fr";
+  }
+  46.0526315789474% {
+    content: "Fre";
+  }
+  47.3684210526316% {
+    content: "Free";
+  }
+  48.6842105263158% {
+    content: "Freel";
+  }
+  50% {
+    content: "Freela";
+  }
+  51.3157894736843% {
+    content: "Freelan";
+  }
+  52.6315789473685% {
+    content: "Freelanc";
+  }
+  53.9473684210527% {
+    content: "Freelance";
+  }
+  55.2631578947369% {
+    content: "Freelancer";
+  }
+  56.5789473684211% {
+    content: "Freelancer";
+  }
+  57.8947368421053% {
+    content: "Freelance";
+  }
+  59.2105263157895% {
+    content: "Freelanc";
+  }
+  60.5263157894737% {
+    content: "Freelan";
+  }
+  61.842105263158% {
+    content: "Freela";
+  }
+  63.1578947368422% {
+    content: "Freel";
+  }
+  64.4736842105264% {
+    content: "Free";
+  }
+  65.7894736842106% {
+    content: "Fre";
+  }
+  67.1052631578948% {
+    content: "Fr";
+  }
+  68.421052631579% {
+    content: "F";
+  }
+  69.7368421052632% {
+    content: " P";
+  }
+  71.0526315789474% {
+    content: " Ph";
+  }
+  72.3684210526316% {
+    content: " Pho";
+  }
+  73.6842105263158% {
+    content: " Phot";
+  }
+  75% {
+    content: " Photo";
+  }
+  76.3157894736842% {
+    content: " Photog";
+  }
+  77.6315789473684% {
+    content: " Photogr";
+  }
+  78.9473684210526% {
+    content: " Photogra";
+  }
+  80.2631578947368% {
+    content: " Photograp";
+  }
+  81.5789473684211% {
+    content: " Photograph";
+  }
+  82.8947368421053% {
+    content: " Photographe";
+  }
+  84.2105263157895% {
+    content: " Photographer";
+  }
+  85.5263157894737% {
+    content: " Photographer";
+  }
+  86.8421052631579% {
+    content: " Photographe";
+  }
+  88.1578947368421% {
+    content: " Photograph";
+  }
+  89.4736842105263% {
+    content: " Photograp";
+  }
+  90.7894736842105% {
+    content: " Photogra";
+  }
+  92.1052631578947% {
+    content: " Photogr";
+  }
+  93.4210526315789% {
+    content: " Photog";
+  }
+  94.7368421052631% {
+    content: " Photo";
+  }
+  96.0526315789473% {
+    content: " Phot";
+  }
+  97.3684210526315% {
+    content: " Pho";
+  }
+  98.6842105263157% {
+    content: " Ph";
+  }
+  100% {
+    content: " P";
+  }
+}
+
+@font-face {
+  font-family: "assistant";
+  src: url(../fonts/Assistant/Assistant-VariableFont_wght.ttf);
+}
+
+@media (max-width: 700px) {
+  h2 {
+    font-size: 40px !important;
+  }
+}
+
+/* main-section-1 */
+
+.bg-section-1 .container {
+  box-shadow: 0px 0px 15px gainsboro;
+}
+.bg-section-1 {
+  background-color: #f5f5f5;
+}
+.my-about {
+  position: relative;
+}
+.my-about::before {
+  content: "";
+  width: 100px;
+  height: 3px;
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: blue;
+}
+/* main-section-2 */
+
+.font-assistant {
+  font-family: "assistant";
+  font-size: 40px;
+  font-weight: 800;
+}
+.my-p {
+  position: relative;
+}
+.my-p::before {
+  content: "";
+  width: 35px;
+  height: 4px;
+  position: absolute;
+  top: 110%;
+  left: 48%;
+  background-color: #0078ff;
+}
+span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #0078ff;
+  border-width: 10px;
+  transition: all 0.5s;
+}
+.shado {
+  box-shadow: 0px 0px 10px gainsboro;
+}
+
+.row-hover:hover span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(132, 153, 248);
+  border-width: 10px;
+}
+.my-i {
+  transition: all 0.5s;
+}
+.row-hover:hover i {
+  color: blue;
+}
+.row-hover-2:hover span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(132, 153, 248);
+  border-width: 10px;
+}
+.my-i {
+  transition: all 0.5s;
+}
+.row-hover-2:hover i {
+  color: blue;
+}
+.row-hover-3:hover span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(132, 153, 248);
+  border-width: 10px;
+}
+.my-i {
+  transition: all 0.5s;
+}
+.row-hover-3:hover i {
+  color: blue;
+}
+.row-hover-4:hover span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(132, 153, 248);
+  border-width: 10px;
+}
+.my-i {
+  transition: all 0.5s;
+}
+.row-hover-4:hover i {
+  color: blue;
+}
+.row-hover-3:hover i {
+  color: blue;
+}
+.row-hover-5:hover span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(132, 153, 248);
+  border-width: 10px;
+}
+.my-i {
+  transition: all 0.5s;
+}
+.row-hover-5:hover i {
+  color: blue;
+}
+.row-hover-3:hover i {
+  color: blue;
+}
+.row-hover-6:hover span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(132, 153, 248);
+  border-width: 10px;
+}
+.my-i {
+  transition: all 0.5s;
+}
+.row-hover-6:hover i {
+  color: blue;
+}
+.bg-section-2 {
+  background-color: #f5f5f5;
+}
+.bgg {
+  background-image: linear-gradient(
+      rgba(0, 122, 255, 0.7),
+      rgba(0, 122, 255, 0.7)
+    ),
+    url(../images/counters-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+  padding: 300px 0;
+}
+.span {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #cde1f8;
+  border-width: 10px;
+  transition: all 0.5s;
+}
+/* main-section-3 */
+.plus:hover {
+  background-color: #0077ffad !important;
+}
+.plus {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #0078ff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+img {
+  transition: all 1.5s;
+}
+.s {
+  overflow: hidden;
+}
+.s:hover img {
+  scale: 1.5;
+}
+/* main-section-4  */
+
+.bggg {
+  background-image: linear-gradient(
+      rgba(0, 122, 255, 0.7),
+      rgba(0, 122, 255, 0.7)
+    ),
+    url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+}
+.w {
+  border-radius: 50%;
+}
+.f {
+  width: 150px;
+}
+/* main-section-6 */
+.blue-section-two {
+  background: linear-gradient(
+      rgba(0, 119, 255, 0.778),
+      rgba(0, 119, 255, 0.778)
+    ),
+    url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 100px 0px;
+}
+.carousel-item img {
+  width: 15% !important;
+  border-radius: 50% !important;
+}
+.edit-but button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+}
+.footer {
+  padding: 30px 0px 10px 0px;
+  background-color: #0062d3f8;
+}
+.contact {
+  background: linear-gradient(
+      rgba(0, 119, 255, 0.778),
+      rgba(0, 119, 255, 0.778)
+    ),
+    url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 45px 0px 10px 0px;
+  box-shadow: 0px 10px 10px #000000db;
+}
+.contact-parent {
+  margin-top: 45px;
+  margin-bottom: 50px;
+  padding: 40px 20px;
+}
+.contact-parent h5 {
+  position: relative;
+}
+.contact-parent h5::after {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.co-ico {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #0078ff;
+  text-align: center;
+  line-height: 1.7;
+  border-radius: 50%;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+.co-ico:hover {
+  background-color: #0078ff;
+  color: #ffffff;
+  border-color: #cde1f8 !important;
+}
+.bt-end {
+  border: none;
+  transition: all 0.5s;
+}
+.bt-end:hover {
+  scale: 1.1;
+  color: #0078ff;
+  background-color: #1d1925;
+}
